@@ -1,0 +1,48 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(0, 48, 28);
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 99.2vw;
+}
+
+form {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-self: center;
+  align-self: center;
+}
+form > #searchBtn {
+  width: 20vw;
+  justify-self: center;
+  align-self: center;
+  margin-top: 10px;
+}
+
+body > div > div {
+  margin-top: 5vh;
+  width: 40vw;
+  height: 60vh;
+  justify-self: center;
+  align-self: center;
+  border: 3px solid cadetblue;
+  border-radius: 30px;
+  background-color: rgb(63, 143, 123);
+  align-content: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.3rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: 800;
+}
